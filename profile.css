@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.profile-picture {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.profile-container {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    border: 1px solid green;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar-item {
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.nav-padding {
+    padding: 12px 0;
+}
+
+.navbar-item span{
+    margin-right: 10px;
+}
+
+.line {
+    border-bottom: 1px solid gray;
+}
+
+.user, .users, .market, .feed {
+    color: rgb(48, 98, 200);
+}
+
+.flag {
+    color: orangered;
+}

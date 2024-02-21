@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+.fade {
+    opacity: 0.10;
+}
+
+
+.container {
+    margin: 0 200px;
+    height: 100vh;
+    position: relative;
+}
+
+.container-create {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    right: 300px;
+    top: 80px;
+}
+
+
+.logo {
+    width: 250px;
+}
+
+.facebook-logo {
+    width: 250px;
+    object-fit: cover;
+}
+
+.description {
+    font-size: 30px;
+    width: 530px;
+    margin-top: -30px;
+    
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col1 {
+    width: 580px;
+}
+
+.col2 {
+    padding-top: 115px;
+}
+
+.form-login {
+    width: 420px;
+    height: 400px;
+    padding: 20px;
+    background: white;
+    box-shadow: 1px 3px 10px rgba(0,0,0,0.25);
+    border-radius: 6px;
+}
+
+.form-create {
+    padding: 10px 15px 25px 15px;
+    width: 420px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.35);
+    border-radius: 6px;
+    display: none;
+    background-color: white;
+}
+
+
+
+.input-email, .input-password {
+    display: block;
+    padding: 16px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: inset 0px 0px 3px rgba(0,0,0,0.30);
+}
+
+input[type="button"] {
+    background: #1877f2;
+    font-weight: bold;
+    padding: 16px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.forgotton {
+    text-align: center;
+}
+
+.forgotton a {
+    color: #0c67dd;
+    text-decoration: none;
+    font-size: 14px;
+    
+}
+
+.line {
+    border-bottom: 1px solid rgb(218, 210, 210);
+    margin: 20px 0px;
+}
+
+.line2 {
+    border-bottom: 1px solid rgb(218, 210, 210);
+    margin: 10px 0px;
+    margin-left: 40px;
+    width: 88%;
+}
+
+.create-account {
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: #42b72a;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.create-account a {
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+}
+
+.create-page {
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.create-page a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.create-page a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    padding: 20px 0px;
+}
+
+ul {
+    display: flex;
+    margin: 5px 0px;
+}
+
+li {
+    list-style: none;
+    margin-right: 16px;
+}
+
+li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+li button {
+    border: 1px solid gray;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 10px;
+    border-radius: 3px;
+}
+
+.copyright {
+    padding-left: 40px;
+    color: gray;
+    margin-top: 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    margin: 0;
+}
+
+.desc {
+    margin: 6px 0;
+    font-size: 14px;
+    color: gray;
+}
+
+.line {
+    border-bottom: 1px solid rgb(231, 229, 229);
+    margin: 15px 0px;
+}
+
+
+.closeBtn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+input {
+    background-color: #f5f6f7;
+    outline-color: red;
+}
+
+.fname, .sname {
+    /* width: 46%; */
+    padding: 11px 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.fname {
+    width: 49%;
+    margin-right: 3px;
+}
+
+.sname {
+    width: 49%;
+}
+
+.email, .password {
+    width: 100%;
+    padding: 11px 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+    color: rgb(105, 103, 103);
+    font-size: 14px;
+}
+
+select {
+    width: 120px;
+    padding: 0px 0px 0px 12px;
+    height: 36px;
+    border-radius: 6px;
+    font-size: 16px;
+    outline-color: red;
+    margin-bottom: 8px;
+}
+
+.select-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(200, 200, 200);
+    width: 120px;
+    padding: 10px 6px;
+    border-radius: 6px;
+}
+
+.gender-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.learn-more {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 12px;
+}
+
+.learn-more a {
+    text-decoration: none;
+}
+
+.privacy {
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 3px;
+}
+
+.privacy a {
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.sms {
+    font-size: 11px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px 0;
+    border: none;
+    border-radius: 6px;
+    background: #00a400;
+    color: white;
+    font-size: 20px;
+}
+
